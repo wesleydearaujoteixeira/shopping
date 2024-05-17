@@ -23,7 +23,7 @@ export const Context = createContext<Types | null>(null);
 
 export const ContextProvider = ({ children }: { children: ReactNode }) => {
 
-    const [product, setProduct] = useState('');
+    const [product, setProduct] = useState('Roupas');
     const [list, setList] = useState <listType[]> ([]);
     const [counter, setCounter] = useState(0);
     const [sideBar, setSideBar] = useState('cartDesative');
