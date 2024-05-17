@@ -1,7 +1,6 @@
-import { useContext, useEffect, useState } from 'react';
+import {useEffect, useState } from 'react';
 import './Products.css';
 import ProductsCard from '../ProductsCard/ProductsCard';
-import { Context } from '../Context/ContextProvider';
 import { contextValues } from '../Context/ApiContext';
 
 

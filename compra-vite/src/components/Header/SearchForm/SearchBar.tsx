@@ -1,7 +1,6 @@
 import { IoSearch } from "react-icons/io5";
 import '../SearchForm/SearchForm.css';
 import { useState } from "react";
-import Products from "../../Products/Products";
 import { contextual } from "../../Context/Context";
 
 
