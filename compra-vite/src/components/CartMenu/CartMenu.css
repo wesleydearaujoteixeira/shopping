@@ -1,0 +1,95 @@
+.cart{
+    width: 330px;
+    background-color: rgb(185, 183, 183);
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 20px;
+    transition: all 1s;
+}
+
+.cartDesative{
+  background-color: rgb(185, 183, 183);
+  width: 330px;
+  margin-right: -330px;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding: 20px;
+  transition: all 1s;
+
+}
+
+
+.delete-side-bar{
+  cursor: pointer;
+}
+
+
+
+
+
+.cart-item {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item-image {
+    width: 70px;
+  }
+  
+  .cart-item-title {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 8px;
+  }
+  
+  .cart-item-price {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .cart-item-content {
+    padding: 0 35px 0 10px;
+    position: relative;
+  }
+  
+  .button__remove-item {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #d83232;
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+
+  .Carrinho-Overflow {
+    background-color: aquamarine;
+    overflow-y: scroll;
+  }
+
+  .cart_resume {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  .cart_resume > h4 {
+    font-weight: 500;
+    margin-top: 2rem;
+  }
+

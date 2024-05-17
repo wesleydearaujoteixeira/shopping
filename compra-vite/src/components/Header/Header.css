@@ -1,0 +1,15 @@
+.header {
+    background-color: #fff159;
+    position: fixed;
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+

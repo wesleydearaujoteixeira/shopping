@@ -1,0 +1,57 @@
+.product-card {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.ButtonAddCart {
+    background-color: rgb(25, 25, 116);
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.product-card > img {
+    width: 70%;
+
+}
+
+
+.card_infos > p {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+
+.card__price {
+    font-weight: 500;
+}
+
+.card__title {
+    font-size: 15px;
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+
+    .ButtonAddCart {
+        background-color: rgb(25, 25, 116);
+        width: 50%;
+        color: white;
+        text-align: center;
+        border-radius: 12px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin: auto;
+    }   
+    
+}

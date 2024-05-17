@@ -1,0 +1,35 @@
+.products {
+    padding: 120px 20px 50px;
+    display: grid;
+    grid-template-columns: 300px  300px  300px;
+    gap: 2rem;
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .products {
+        padding: 120px 20px 50px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 2rem;
+    
+    }
+
+    
+}
+
+
+
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+    
+    .products {
+        padding: 120px 20px 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 2rem;
+    
+    }
+
+    
+}
