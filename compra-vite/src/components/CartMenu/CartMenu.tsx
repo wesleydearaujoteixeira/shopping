@@ -22,7 +22,7 @@ function CartMenu() {
             <div className="cart_items"> <CartItem/> </div>
             <div className="cart_resume">
                  <h4> SubTotal </h4>
-                 <h4> { sumTotal && FormatMoney(sumTotal) || 'R$ 0'}  </h4>
+                 <h4> { sumTotal && FormatMoney(sumTotal) || 'R$ 0,00'}  </h4>
             </div>
         </section>
      );

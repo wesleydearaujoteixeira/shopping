@@ -83,8 +83,11 @@
 
   .cart_resume {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     flex-direction: column;
+    align-items: center;
+    bottom: 0%;
+    height: 100%;
   }
 
 
